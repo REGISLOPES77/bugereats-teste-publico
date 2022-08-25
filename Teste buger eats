@@ -1,0 +1,49 @@
+Algoritmo "parceiroBugerEats"
+
+Var
+
+   cadastro, dados, nome, rua, email:  caractere
+   endereco, cidade, bairro, uf: caractere
+   cpf, cep, whatsapp: inteiro
+   complemento, numero: real
+   entrega, moto, bicicleta, vanCarro: INTEIRO
+   
+
+Inicio
+   escreva ("Cadastre-se para fazer entregas")
+   leia (cadastro)
+   escreva ("Preencha os seus Dados")
+   leia (dados)
+   escreva ("Digite Nome completo: ")
+   leia (nome)
+   escreva ("Digite CPF: ")
+   leia (cpf)
+   escreva ("Digite Email:")
+   leia (Email)
+   escreva ("Digite whatsapp: ")
+   leia (whatsapp)
+   escreva ("Digite CEP: ")
+   leia (cep)
+   escreva ("Digite RUA:")
+   leia (rua)
+   escreva ("Digite NUMERO:")
+   leia (numero)
+   escreva ("Digite Complemento: ")
+   leia (complemento)
+   escreva ("Digite BAIRRO: ")
+   leia (bairro)
+   escreva ("Digite CIDADE: ")
+   leia (cidade)
+   escreva ("Digite UF: ")
+   leia (uf)
+   
+   moto <- 1
+   bicicleta <- 2
+   vanCarro <- 3
+   
+   escreval ("Digite 1 para entrega de moto ", moto)
+   escreval ("Digite 2 para entrega de bicicleta ", bicicleta)
+   escreval ("Digite 3 para entrega de vanCarro ", vanCarro)
+
+
+Fimalgoritmo
